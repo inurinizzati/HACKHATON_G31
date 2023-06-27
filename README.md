@@ -73,8 +73,7 @@ The items are map, cooker, water, flashlight, key, bandage, and key while the ro
 
 Immerse yourself in the House of Secrets: The Sinister Quest as a Detective, hiding and seeking hidden items within its mysterious rooms. Use your intuition and outwit your opponent to claim victory in this challenging and strategic game of deduction. 
 
-
-         **2.2 Game Features** 
+**2.2 Game Features** 
 
 Players and Setup: 
 
