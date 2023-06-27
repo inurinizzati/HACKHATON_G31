@@ -142,7 +142,7 @@ The game can be played multiple times, with players taking turns as both the hid
 
    - Overall, the GamePlay class combines functionality from the Player and Item classes and adds scoring capabilities. It allows players to accumulate points, display their score, and determine the winner between two players using the determineWinner() function. 
 
-                2.4 Object Oriented Programming Concepts
+     2.4 Object Oriented Programming Concepts
 
 1. Inheritance: The GamePlay class inherits from both the Player and Item classes using public inheritance. By inheriting from these classes, GamePlay can access their members and extend their functionality. Inheritance allows code reuse and promotes the "is-a" relationship, where GamePlay is a specialized type of both Player and Item. 
 
