@@ -2,16 +2,15 @@
 
 | No. | Tittle |
 |----- | -----------------------------|
-|1.0 | Abstraction |
-| 2.0 | Introduction of our 2-player |
-| 3.0 | Game Analyzation |
-| 4.0 | Illustration of Game |
-| 5.0 | Conclusion |
-| 6.0 | Reference |
-| 7.0 | Task Distribution |
-
-
-
+| 1.0 | Introduction |
+| 1.1 | Game Storyline |
+| 1.0 | Objective |
+| 2.0 | Game Analyzation |
+| 2.1 | Game Concept |
+| 2.2 | Game Features |
+| 2.3 | Classes and Its Relationships |
+| 2.4 | Object Oriented Programming Concepts |
+| 2.5 | Linked List Concepts |
 
 ## 1. INTRODUCTION OF OUR TEXT-BASED GAME
 
