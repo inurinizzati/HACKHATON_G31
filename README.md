@@ -68,7 +68,7 @@ And so, the House of Secrets stands, an eternal sentinel, forever ready to ensna
         2.1 Game Concept 
 
 
-“House of Secrets: The Sinister Quest” is a two-player game, whereby the characters and players are called ‘Detectives’ and they are both humans. Both players will enter their name as input. In this game, the players will take turns making their moves, attempting to contest their opponent to gain highest score by guessing hidden items in the correct room. Each correct guess will contribute to a +1 point.  
+“House of Secrets: The Sinister Quest” is a two-player game, whereby the characters and players are called ‘Detectives’ and they are both humans. Both players will enter their name as input. In this game, the players will take turns making their moves, attempting to contest their opponent to gain highest score by guessing hidden items in the correct room. Each correct guess will contribute to a different point depends on items.  
 
 Firstly, both players will pick 5 from 7 items and hide them in 6 different rooms by taking turns. Next, they will need to search for items hidden by another player by guessing the correct room from 6 rooms where there is an extra distraction. The winning player is determined by the values of score which is higher.  
 
@@ -83,19 +83,21 @@ Players and Setup:
 
 The game is designed for two players, referred to as "Detectives." At the start of the game, both players enter their names as input to personalize their experience. 
 
+//add item
+
 Item Hiding Phase: 
 
 Players take turns hiding five items each in five different rooms within the House of Secrets. During their turn, a player selects an item from their collection and chooses a room to hide it in. The goal is to strategically place the items to make them challenging to find. Each player must ensure that their items remain hidden. 
 
 Searching Phase: 
 
-After the item hiding phase, the game progresses to the searching phase. Players take turns guessing the correct room where their opponent has hidden an item. The house consists of six rooms, with one room containing a distraction (e.g., a false clue or decoy item) and the remaining five or lesser rooms holding the hidden items. Players need to use their deductive skills, analyse clues, and consider their opponent's strategies to make educated guesses. If a player guesses the correct room, they earn one point (+1) for their score. However, if they guess the distraction room or a room with no hidden item, they do not earn any points. 
+After the item hiding phase, the game progresses to the searching phase. Players take turns guessing the correct room where their opponent has hidden an item. The house consists of six rooms, with one room containing a distraction (e.g., a false clue or decoy item) and the remaining five or lesser rooms holding the hidden items. Players need to use their deductive skills, analyse clues, and consider their opponent's strategies to make educated guesses. If a player guesses the correct room, they earn point for their score. However, if they guess the distraction room or a room with no hidden item, they do not earn any points. 
 
 Scoring and Winning: 
 
 Each correct guess adds one point to the player's score. The game continues with players taking turns guessing until all five hidden items have been found. Once all the items are discovered, the game ends, and the player with the highest score wins. In the event of a tie, the game can be extended with additional rounds until there is a clear winner. 
 
-Additional Features: 
+//Additional Features: 
 
 Distraction Rooms: 
 
@@ -115,34 +117,33 @@ The game can be played multiple times, with players taking turns as both the hid
 
         2.3 Classes and Its Relationships 
 
-Scene Class 
+- Scene Class 
 
-The Scene class has a default constructor and two member functions: displayScene() and displayResult().The displayScene() function takes an integer parameter item and displays a specific message based on the value of item. It prompts the user to choose a room number where they believe a certain item is hidden. 
+  - The Scene class has a default constructor and two member functions: displayScene() and displayResult().The displayScene() function takes an integer parameter item and displays a specific message based on the value of item. It prompts the user to choose a room number where they believe a certain item is hidden. 
 
-The displayResult() function takes a boolean parameter answer and an integer parameter item. It displays a message based on the result of the player's guess. If the guess was correct (answer is true), it provides a congratulatory message for finding the item. Otherwise, it displays a message indicating that the item was not found. 
+  - The displayResult() function takes a boolean parameter answer and an integer parameter item. It displays a message based on the result of the player's guess. If the guess was correct (answer is true), it provides a congratulatory message for finding the item. Otherwise, it displays a message indicating that the item was not found. 
 
-Item Class 
+- Item Class 
 
-The Item class has a private nested struct called ListNode, which represents a node in a linked list.The class has a pointer to the head of the linked list, initialized as nullptr. The class provides a default constructor and a destructor to manage memory for the linked list. 
+  - The Item class has a private nested struct called ListNode, which represents a node in a linked list.The class has a pointer to the head of the linked list, initialized as nullptr. The class provides a default constructor and a destructor to manage memory for the linked list. 
 
-The class contains member functions for adding an item to the linked list (addItem()), displaying all the items (displayItem()), retrieving the name of an item based on its number (getItemName()), hiding an item in a specific room (hideItem()), displaying the hidden items with their corresponding rooms (displayHiddenItems()), displaying the scene for a specific item (itemScene()), checking if the player's guess of a room matches the item's hidden room (guessRoom()), and displaying the result of the guess (result()). 
+   - The class contains member functions for adding an item to the linked list (addItem()), displaying all the items (displayItem()), retrieving the name of an item based on its number (getItemName()), hiding an item in a specific room (hideItem()), displaying the hidden items with their corresponding rooms (displayHiddenItems()), displaying the scene for a specific item (itemScene()), checking if the player's guess of a room matches the item's hidden room (guessRoom()), and displaying the result of the guess (result()). 
 
-Player Class 
+- Player Class 
 
-The Player class has a single data member playerName of type string, representing the name of the player.The class provides a constructor that takes a string parameter name to initialize the player Name. The class also provides a member function getName() that returns the playerName. 
+   - The Player class has a single data member playerName of type string, representing the name of the player.The class provides a constructor that takes a string parameter name to initialize the player Name. The class also provides a member function getName() that returns the playerName. 
 
-Overall, these classes seem to be part of a game where the player explores a house and tries to find hidden items in different rooms. The Item class manages the items and their corresponding scenes, while the Scene class handles the display of messages related to the items. The Player class is responsible for managing the player's information.  
+   - Overall, these classes seem to be part of a game where the player explores a house and tries to find hidden items in different rooms. The Item class manages the items and their corresponding scenes, while the Scene class handles the display of messages related to the items. The Player class is responsible for managing the player's information.  
 
-GamePlay Class 
+- GamePlay Class 
 
-The GamePlay class has a private member variable point, which represents the score of the player. It is initialized to 0 in the constructor, which takes a const string& parameter representing the player's name. The constructor also calls the Player constructor using the name parameter. 
+   - The GamePlay class has a private member variable point, which represents the score of the player. It is initialized to 0 in the constructor, which takes a const string& parameter representing the player's name. The constructor also calls the Player constructor using the name parameter. 
 
-The class provides member functions to manipulate the score: addPoints() increments the score by 1. getPoints() returns the current score. displayPoints() prints the player's name and their score to the standard output. Additionally, there is a friend function determineWinner() defined outside the class. It takes two GamePlay objects as parameters and compares their scores to determine the winner or a tie.  
+   - The class provides member functions to manipulate the score: addPoints() increments the score by 1. getPoints() returns the current score. displayPoints() prints the player's name and their score to the standard output. Additionally, there is a friend function determineWinner() defined outside the class. It takes two GamePlay objects as parameters and compares their scores to determine the winner or a tie.  
 
-Overall, the GamePlay class combines functionality from the Player and Item classes and adds scoring capabilities. It allows players to accumulate points, display their score, and determine the winner between two players using the determineWinner() function. 
+   - Overall, the GamePlay class combines functionality from the Player and Item classes and adds scoring capabilities. It allows players to accumulate points, display their score, and determine the winner between two players using the determineWinner() function. 
 
-
-        2.4 Object Oriented Programming Concepts 
+        2.4 Object Oriented Programming Concepts
 
 1. Inheritance: The GamePlay class inherits from both the Player and Item classes using public inheritance. By inheriting from these classes, GamePlay can access their members and extend their functionality. Inheritance allows code reuse and promotes the "is-a" relationship, where GamePlay is a specialized type of both Player and Item. 
 
@@ -167,37 +168,35 @@ The Item class represents the collection of items in the game. It uses a linked 
 
  
 
-The ListNode structure contains several members: 
+- The ListNode structure contains several members: 
 
-room: Represents the room number where the item is hidden. 
+   - room: Represents the room number where the item is hidden. 
 
-numItem: Represents the item number. 
+   - numItem: Represents the item number. 
 
-item: Represents the name of the item. 
+   - item: Represents the name of the item. 
 
-scene: An instance of the Scene class, which is responsible for displaying scenes related to the item. 
+   - scene: An instance of the Scene class, which is responsible for displaying scenes related         to the item. 
 
-next: A pointer to the next node in the linked list. 
+   - next: A pointer to the next node in the linked list. 
 
- 
+- The Item class provides various functions to manipulate the linked list: 
 
-The Item class provides various functions to manipulate the linked list: 
+   - addItem: Adds a new item to the linked list. It creates a new node, assigns the item's         details, and appends it to the end of the list. 
 
-addItem: Adds a new item to the linked list. It creates a new node, assigns the item's details, and appends it to the end of the list. 
+   - displayItem: Displays all the items in the list along with their item numbers. 
 
-displayItem: Displays all the items in the list along with their item numbers. 
+   - getItemName: Retrieves the name of an item based on its item number. 
 
-getItemName: Retrieves the name of an item based on its item number. 
+   - hideItem: Sets the room number where an item is hidden by finding the corresponding node         and updating its room member. 
 
-hideItem: Sets the room number where an item is hidden by finding the corresponding node and updating its room member. 
+   - displayHiddenItems: Displays the name of each item along with the room number where it is         hidden. 
 
-displayHiddenItems: Displays the name of each item along with the room number where it is hidden. 
+   - itemScene: Displays the scene related to a particular item by finding the corresponding         node and invoking the displayScene function of the Scene class. 
 
-itemScene: Displays the scene related to a particular item by finding the corresponding node and invoking the displayScene function of the Scene class. 
-
-guessRoom: Checks if the player's guess for the room where an item is hidden matches the actual room number. It traverses the linked list to find the corresponding item node and compares the room numbers. 
-
-result: Displays the result of the player's guess for a particular item by finding the corresponding node and invoking the displayResult function of the Scene class. 
+   - guessRoom: Checks if the player's guess for the room where an item is hidden matches the         actual room number. It traverses the linked list to find the corresponding item node         and compares the room numbers. 
+        
+   - result: Displays the result of the player's guess for a particular item by finding the corresponding node and invoking the displayResult function of the Scene class. 
 
 In summary, linked lists are used to manage and store the items in the game. Each item is represented by a node in the linked list, containing information such as the item name, room number, and scene details. The linked list allows for efficient storage, retrieval, and manipulation of the items during gameplay. 
       
