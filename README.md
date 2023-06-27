@@ -14,7 +14,7 @@
 
 ## 1. INTRODUCTION OF OUR TEXT-BASED GAME
 
-        **1.1 Game Storyline**
+**1.1 Game Storyline**
 
 Title: House of Secrets 
 
@@ -45,8 +45,7 @@ With hearts pounding and minds haunted by the horrors they witnessed, Amelia and
 
 And so, the House of Secrets stands, an eternal sentinel, forever ready to ensnare the souls of future detectives who dare to venture into its accursed halls. Who will be the next pair of intrepid souls to test their mettle and unravel the mysteries that dwell within its heart of darkness? Only the brave or the foolish will dare to find out. 
 
-
-        **1.2 Objective**
+**1.2 Objective**
 
 - To construct object-oriented programming with the appropriate data structures. 
 
@@ -64,8 +63,7 @@ And so, the House of Secrets stands, an eternal sentinel, forever ready to ensna
 
 ## 2.0 GAME ANALYZATION 
 
-        **2.1 Game Concept** 
-
+**2.1 Game Concept** 
 
 “House of Secrets: The Sinister Quest” is a two-player game, whereby the characters and players are called ‘Detectives’ and they are both humans. Both players will enter their name as input. In this game, the players will take turns making their moves, attempting to contest their opponent to gain highest score by guessing hidden items in the correct room. Each correct guess will contribute to a different point depends on items.  
 
@@ -82,8 +80,6 @@ Players and Setup:
 
 The game is designed for two players, referred to as "Detectives." At the start of the game, both players enter their names as input to personalize their experience. 
 
-//add item
-
 Item Hiding Phase: 
 
 Players take turns hiding five items each in five different rooms within the House of Secrets. During their turn, a player selects an item from their collection and chooses a room to hide it in. The goal is to strategically place the items to make them challenging to find. Each player must ensure that their items remain hidden. 
@@ -96,7 +92,7 @@ Scoring and Winning:
 
 Each correct guess adds one point to the player's score. The game continues with players taking turns guessing until all five hidden items have been found. Once all the items are discovered, the game ends, and the player with the highest score wins. In the event of a tie, the game can be extended with additional rounds until there is a clear winner. 
 
-//Additional Features: 
+*Additional Features:*
 
 Distraction Rooms: 
 
@@ -114,7 +110,7 @@ Replay ability:
 
 The game can be played multiple times, with players taking turns as both the hider and the seeker. Each playthrough offers new opportunities for strategic thinking and improving gameplay tactics. 
 
-        **2.3 Classes and Its Relationships** 
+**2.3 Classes and Its Relationships** 
 
 - Scene Class 
 
@@ -142,7 +138,7 @@ The game can be played multiple times, with players taking turns as both the hid
 
    - Overall, the GamePlay class combines functionality from the Player and Item classes and adds scoring capabilities. It allows players to accumulate points, display their score, and determine the winner between two players using the determineWinner() function. 
 
-             **2.4 Object Oriented Programming Concept**
+**2.4 Object Oriented Programming Concept**
 
 1. Inheritance: The GamePlay class inherits from both the Player and Item classes using public inheritance. By inheriting from these classes, GamePlay can access their members and extend their functionality. Inheritance allows code reuse and promotes the "is-a" relationship, where GamePlay is a specialized type of both Player and Item. 
 
@@ -158,8 +154,7 @@ The game can be played multiple times, with players taking turns as both the hid
 
 1. By utilizing these object-oriented concepts, the code promotes modularity, code reuse, and encapsulation. It allows for the creation of objects with specific behaviors and attributes, promoting a more organized and maintainable codebase. 
 
-
-        **2.5 Linked List Concepts**
+**2.5 Linked List Concepts**
 
 Linked lists play a role in managing and organizing the items in the game. Let's analyse the code to understand how linked lists are utilized: 
 
