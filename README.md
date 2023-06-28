@@ -217,7 +217,7 @@ In summary, linked lists are used to manage and store the items in the game. Eac
 ### **Our program has been tested on Dev C++ and Google Colab**
 
 ## 4.0 VIDEO LINK
- [linkvideo](https://studentusm-my.sharepoint.com/:f:/g/personal/mizanqistinaaa_student_usm_my/EuV5dctXAItGmi9F8SRIcEwBEHAZb0oK_Y-s99Hg2WG1BA?e=8jDbu5)
+ [VIDEO LINK](https://studentusm-my.sharepoint.com/:f:/g/personal/mizanqistinaaa_student_usm_my/EuV5dctXAItGmi9F8SRIcEwBEHAZb0oK_Y-s99Hg2WG1BA?e=8jDbu5)
 
 
  
