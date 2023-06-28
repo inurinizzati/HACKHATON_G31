@@ -21,27 +21,27 @@ Title: House of Secrets
 
 Story: 
 
-In the eerie town of Silhouette, shrouded in a dark and mysterious past, a bone-chilling competition is about to unfold. Two exceptional detectives, Detective Kleo and Detective Samuel, known for their unwavering resolve and unwinding enigmatic puzzles, find themselves entangled in a harrowing quest of wits within the sinister House of Secrets. 
+In the eerie town of Silhouette, shrouded in a dark and mysterious past, a bone-chilling competition is about to unfold. Two exceptional detectives, Detective Kleo and Detective Zeke, known for their unwavering resolve and unwinding enigmatic puzzles, find themselves entangled in a harrowing quest of wits within the sinister House of Secrets. 
 
-Amelia and Samuel, drawn by their insatiable curiosity for the macabre, agree to engage in a sinister contest within the House of Secrets—a foreboding mansion whispered to be a haven for hidden treasures and unsolved mysteries steeped in the occult. 
+Kleo and Zeke, drawn by their insatiable curiosity for the macabre, agree to engage in a sinister contest within the House of Secrets—a foreboding mansion whispered to be a haven for hidden treasures and unsolved mysteries steeped in the occult. 
 
 As the moon casts an ominous glow, the players take their positions, each driven by a desperate desire to outwit the other and survive the nightmarish depths of this malevolent game. They enter their names into the game interface, unwittingly sealing their fate within the realm of terror. 
 
-The first phase of the game commences as Amelia and Samuel take turns hiding five cursed artifacts within five separate rooms of the House of Secrets. With every hidden item, they cautiously choose their hiding spots, ensuring that their selections are diabolically clever and shielded from prying eyes. 
+The first phase of the game commences as Kleo and Zeke take turns hiding five cursed artifacts within five separate rooms of the House of Secrets. With every hidden item, they cautiously choose their hiding spots, ensuring that their selections are diabolically clever and shielded from prying eyes. 
 
-Once the hiding phase is complete, the second phase descends—the harrowing search. Amelia and Samuel must now rely on their trembling senses and acute deductive prowess to unearth the items hidden by their opponent. Six rooms stand before them, each oozing with a haunting charm, but only one holds the coveted relic they seek. 
+Once the hiding phase is complete, the second phase descends—the harrowing search. Kleo and Zeke must now rely on their trembling senses and acute deductive prowess to unearth the items hidden by their opponent. Six rooms stand before them, each oozing with a haunting charm, but only one holds the coveted relic they seek. 
 
-Unbeknownst to them, the House of Secrets yearns to claim their souls. Within the six rooms, sinister traps lie in wait, cunningly designed to confuse, and torment the hapless detectives. Shadows dance, whispers echo through the halls, and apparitions attempt to lure them astray. False trails, illusory clues, and grotesque specters conspire to lead them astray from their quarry. Amelia and Samuel must steel their nerves, for only the most resolute can navigate the twisted corridors and unveil the truth behind their opponent's treacherous prizes. 
+Unbeknownst to them, the House of Secrets yearns to claim their souls. Within the six rooms, sinister traps lie in wait, cunningly designed to confuse, and torment the hapless detectives. Shadows dance, whispers echo through the halls, and apparitions attempt to lure them astray. False trails, illusory clues, and grotesque specters conspire to lead them astray from their quarry. Kleo and Zeke must steel their nerves, for only the most resolute can navigate the twisted corridors and unveil the truth behind their opponent's treacherous prizes. 
 
 With every successful discovery, a chill runs down their spines, and they earn a point—a grim reminder of their progress in this nightmarish contest. The tension mounts with each correct guess, propelling them ever closer to the abyss of victory or damnation. Their minds become razor-sharp, dissecting cryptic hints, and discarding treacherous misdirection with each fateful turn. The air crackles with a palpable dread as they wage their battle for the highest score, struggling against the malevolent forces that seek to consume them. 
 
-Driven by their competitive spirits, Amelia and Samuel push the boundaries of their sanity and unravel the intricate tapestry of enigmas before them. Their intuition and strategic acumen serve as shields against the encroaching darkness. Each room they venture into unveils a sinister fragment of the House's nefarious secrets, providing vital clues to make more informed guesses and inch closer to salvation or eternal damnation. 
+Driven by their competitive spirits, Kleo and Zeke push the boundaries of their sanity and unravel the intricate tapestry of enigmas before them. Their intuition and strategic acumen serve as shields against the encroaching darkness. Each room they venture into unveils a sinister fragment of the House's nefarious secrets, providing vital clues to make more informed guesses and inch closer to salvation or eternal damnation. 
 
 As the game approaches its climax, the detectives find themselves standing on the precipice of their fate. With bated breath, they step into the rooms they believe imprison their opponent's forbidden treasures, desperately hoping their deductions hold true. The House of Secrets tightens its grip, amplifying the sense of impending doom as their destinies intertwine within its malevolent embrace. 
 
 In the end, only one detective emerges, their victory measured by the highest score achieved through accurately deducing the locations of their opponent's accursed artifacts. The House of Secrets unveils its darkest secrets, etching the victor's name into the annals of Silhouette’s ominous history as a master of the macabre. 
 
-With hearts pounding and minds haunted by the horrors they witnessed, Amelia and Samuel bid each other farewell. Though the competition has reached its chilling climax, a lingering respect for each other's skills remains. They part ways, forever marked by the haunting memories of a spine-chilling game, forever changed by their encounter with the House of Secrets. 
+With hearts pounding and minds haunted by the horrors they witnessed, Kleo and Zeke bid each other farewell. Though the competition has reached its chilling climax, a lingering respect for each other's skills remains. They part ways, forever marked by the haunting memories of a spine-chilling game, forever changed by their encounter with the House of Secrets. 
 
 And so, the House of Secrets stands, an eternal sentinel, forever ready to ensnare the souls of future detectives who dare to venture into its accursed halls. Who will be the next pair of intrepid souls to test their mettle and unravel the mysteries that dwell within its heart of darkness? Only the brave or the foolish will dare to find out. 
 
@@ -69,7 +69,7 @@ And so, the House of Secrets stands, an eternal sentinel, forever ready to ensna
 
 Firstly, both players will pick 5 from 7 items and hide them in 6 different rooms by taking turns. Next, they will need to search for items hidden by another player by guessing the correct room from 6 rooms where there is an extra distraction. The winning player is determined by the values of score which is higher.  
 
-The items are map, cooker, water, flashlight, key, bandage, and key while the rooms are kitchen, bedroom, toilet, living room, store and basement. 
+The items are map, cooker, water, flashlight, key, bandage, and key while the rooms are kitchen, bathroom, store, basement, library and store. 
 
 Immerse yourself in the House of Secrets: The Sinister Quest as a Detective, hiding and seeking hidden items within its mysterious rooms. Use your intuition and outwit your opponent to claim victory in this challenging and strategic game of deduction. 
 
@@ -89,7 +89,7 @@ After the item hiding phase, the game progresses to the searching phase. Players
 
 Scoring and Winning: 
 
-Each correct guess adds one point to the player's score. The game continues with players taking turns guessing until all five hidden items have been found. Once all the items are discovered, the game ends, and the player with the highest score wins. In the event of a tie, the game can be extended with additional rounds until there is a clear winner. 
+Each correct guess adds different point to the player's score. The game continues with players taking turns guessing until all five hidden items have been found. Once all the items are discovered, the game ends, and the player with the highest score wins.
 
 *Additional Features:*
 
@@ -133,7 +133,8 @@ The game can be played multiple times, with players taking turns as both the hid
  
 - DynIntStack Class
    - We have use template DynIntStack class which has a private member variable struct StackNode to create a node that contains value and next pointer and StackNode *top.
-   - 
+   -  The constructor DynIntStack() initializes the top pointer to nullptr, indicating an empty stack.The destructor ~DynIntStack() is responsible for deallocating memory when the stack is destroyed. It traverses the stack, starting from the top node, and deletes each node one by one until reaching the end.
+   - The push() function adds a new item to the top of the stack. It creates a new node, assigns the item's value to it, and updates the top pointer accordingly. The pop() function removes the top item from the stack and returns its value through a reference parameter item. The isEmpty() function checks whether the stack is empty by examining the top pointer. Overall, the DynIntStack class provides basic functionality to create a dynamic stack of elements, allowing items to be pushed onto the stack, popped from the stack, and checking if the stack is empty.
 
 **2.4 Object Oriented Programming Concept**
 
@@ -188,4 +189,15 @@ The Item class represents the collection of items in the game. It uses a linked 
    - result: Displays the result of the player's guess for a particular item by finding the corresponding node and invoking the displayResult function of the Scene class. 
 
 In summary, linked lists are used to manage and store the items in the game. Each item is represented by a node in the linked list, containing information such as the item name, room number, and scene details. The linked list allows for efficient storage, retrieval, and manipulation of the items during gameplay. 
-      
+
+## 3.0 SCREENSHOT OF THE GAME
+
+![Screenshot (866)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/636efcc5-e1ea-4f94-83ba-bb3c5ad56eee)
+![Screenshot (868)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/5be36231-2f03-487b-97e2-42714337f2b2)
+![Screenshot (869)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/c7d67111-680c-44f2-996a-8137e616706e)
+![Screenshot (870)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/ec77e7d8-7279-45c4-9393-8d64a866727f)
+![Screenshot (871)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/197c85cf-1e00-4ff4-9585-33aeb2e2d84c)
+![Screenshot (872)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/de543967-24b8-4a35-aca4-f4c2fe97d689) 
+![Screenshot (873)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/d4138c37-e2d8-4b0d-a1d2-c5f7fd6a1dbd)
+![Screenshot (874)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/e652bc73-c780-47c6-a4ad-0b5d2ee6d187)
+
