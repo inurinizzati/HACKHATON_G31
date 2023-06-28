@@ -111,12 +111,6 @@ The game can be played multiple times, with players taking turns as both the hid
 
 **2.3 Classes and Its Relationships** 
 
-- Scene Class 
-
-  - The Scene class has a default constructor and two member functions: displayScene() and displayResult().The displayScene() function takes an integer parameter item and displays a specific message based on the value of item. It prompts the user to choose a room number where they believe a certain item is hidden. 
-
-  - The displayResult() function takes a boolean parameter answer and an integer parameter item. It displays a message based on the result of the player's guess. If the guess was correct (answer is true), it provides a congratulatory message for finding the item. Otherwise, it displays a message indicating that the item was not found. 
-
 - Item Class 
 
   - The Item class has a private nested struct called ListNode, which represents a node in a linked list.The class has a pointer to the head of the linked list, initialized as nullptr. The class provides a default constructor and a destructor to manage memory for the linked list. 
@@ -131,11 +125,14 @@ The game can be played multiple times, with players taking turns as both the hid
 
 - GamePlay Class 
 
-   - The GamePlay class has a private member variable point, which represents the score of the player. It is initialized to 0 in the constructor, which takes a const string& parameter representing the player's name. The constructor also calls the Player constructor using the name parameter. 
+   - The GamePlay class has a private member variable totalPoints and currentPoints, which represents the total scores at the end of the game and the current score of the player for every round. Both are initialized to 0 in the constructor, which CurrentPoints take  a string& parameter representing the player's name and bool parameter to decide if the player get the score. The constructor also calls the Player constructor using the name parameter. 
 
-   - The class provides member functions to manipulate the score: addPoints() increments the score by 1. getPoints() returns the current score. displayPoints() prints the player's name and their score to the standard output. Additionally, there is a friend function determineWinner() defined outside the class. It takes two GamePlay objects as parameters and compares their scores to determine the winner or a tie.  
+   - The class provides member functions to manipulate the score:getCurrentPoints() that will return the current points for every round. calcTotalPoints() will total up all the current point for every round. getTotalPoint() will return totalpoints to display. DisplayPoints() prints the player's name and their score to the standard output. Additionally, there is a friend function determineWinner() defined outside the class. It takes two GamePlay objects as parameters and compares their scores to determine the winner or a tie.  
 
-   - Overall, the GamePlay class combines functionality from the Player and Item classes and adds scoring capabilities. It allows players to accumulate points, display their score, and determine the winner between two players using the determineWinner() function. 
+   - Overall, the GamePlay class combines functionality from the Player and Item classes and adds scoring capabilities. It allows players to accumulate points, display their score, and determine the winner between two players using the determineWinner() function.
+ 
+- Stack Class
+   - 
 
 **2.4 Object Oriented Programming Concept**
 
@@ -147,19 +144,17 @@ The game can be played multiple times, with players taking turns as both the hid
 
 1. Constructor: The GamePlay class defines a constructor that initializes the points member variable to 0. The constructor takes a const string& parameter representing the player's name and calls the Player constructor with the name parameter. The constructor allows proper initialization of objects of the GamePlay class when they are created, ensuring that necessary setup is performed. 
 
-1. Member Functions: The class provides member functions to manipulate and access the points member variable. The addPoints() function increments the score, the getPoints() function returns the current score, and the displayPoints() function displays the player's name and their score. These member functions encapsulate the behavior related to the points variable within the class, promoting code organization and maintainability. 
+1. Member Functions: The class provides member functions to manipulate and access the points member variable. The calcTotalPoints() function to total up the current points, the getTotalPoints() function returns the tota score, and the displayPoints() function displays the player's name and their score. These member functions encapsulate the behavior related to the points variable within the class, promoting code organization and maintainability. 
 
 1. Friend Function: The GamePlay class defines a friend function determineWinner(), which is defined outside the class. The friend keyword allows the function to access the private members of the GamePlay class. The determineWinner() function takes two GamePlay objects as parameters and compares their scores to determine the winner or a tie. This demonstrates the use of friend functions to provide access to private members of a class to external functions when necessary. 
 
-1. By utilizing these object-oriented concepts, the code promotes modularity, code reuse, and encapsulation. It allows for the creation of objects with specific behaviors and attributes, promoting a more organized and maintainable codebase. 
+By utilizing these object-oriented concepts, the code promotes modularity, code reuse, and encapsulation. It allows for the creation of objects with specific behaviors and attributes, promoting a more organized and maintainable codebase. 
 
 **2.5 Linked List Concepts**
 
 Linked lists play a role in managing and organizing the items in the game. Let's analyse the code to understand how linked lists are utilized: 
 
 The Item class represents the collection of items in the game. It uses a linked list to store the items. Each item is represented by a node in the linked list, defined by the inner ListNode structure. 
-
- 
 
 - The ListNode structure contains several members: 
 
@@ -169,7 +164,7 @@ The Item class represents the collection of items in the game. It uses a linked 
 
    - item: Represents the name of the item. 
 
-   - scene: An instance of the Scene class, which is responsible for displaying scenes related         to the item. 
+   - scene: An instance of the Scene fuction , which is responsible for displaying scenes related to the item. 
 
    - next: A pointer to the next node in the linked list. 
 
