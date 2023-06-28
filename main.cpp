@@ -229,7 +229,7 @@ int main()
     	cout << "\nDo you want to play again? y/n  ";
 		cin >> playGame;
 		
-	} while (playGame = 'y' || playGame == 'Y');
+	} while (playGame == 'y' || playGame == 'Y');
 	
     return 0;
 }
