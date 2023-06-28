@@ -2,7 +2,6 @@
 #define ITEM_H
 #include <iostream>
 #include <string>
-#include "DynIntStack.h"
 using namespace std;
 
 class Item 
