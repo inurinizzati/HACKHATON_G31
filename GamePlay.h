@@ -4,6 +4,7 @@
 #include <iomanip>
 #include "Player.h"
 #include "Item.h"
+#include "DynIntStack.h"
 
 using namespace std;
 
