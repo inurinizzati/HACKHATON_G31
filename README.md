@@ -131,7 +131,8 @@ The game can be played multiple times, with players taking turns as both the hid
 
    - Overall, the GamePlay class combines functionality from the Player and Item classes and adds scoring capabilities. It allows players to accumulate points, display their score, and determine the winner between two players using the determineWinner() function.
  
-- Stack Class
+- DynIntStack Class
+   - We have use template DynIntStack class which has a private member variable struct StackNode to create a node that contains value and next pointer and StackNode *top.
    - 
 
 **2.4 Object Oriented Programming Concept**
