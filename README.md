@@ -199,13 +199,18 @@ In summary, linked lists are used to manage and store the items in the game. Eac
 
 ## 3.0 SCREENSHOT OF THE GAME
 
-![Screenshot (866)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/636efcc5-e1ea-4f94-83ba-bb3c5ad56eee)
-![Screenshot (868)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/5be36231-2f03-487b-97e2-42714337f2b2)
-![Screenshot (869)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/c7d67111-680c-44f2-996a-8137e616706e)
-![Screenshot (870)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/ec77e7d8-7279-45c4-9393-8d64a866727f)
-![Screenshot (871)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/197c85cf-1e00-4ff4-9585-33aeb2e2d84c)
-![Screenshot (872)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/de543967-24b8-4a35-aca4-f4c2fe97d689) 
-![Screenshot (873)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/d4138c37-e2d8-4b0d-a1d2-c5f7fd6a1dbd)
-![Screenshot (874)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/e652bc73-c780-47c6-a4ad-0b5d2ee6d187)
+![Screenshot (876)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/8e2430eb-9485-4159-8291-dac0965b3298)
+![Screenshot (877)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/8430f2b6-336d-4095-b68f-930dd0a5e6e6)
+![Screenshot (878)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/fc3cb17b-384c-4c0b-8069-aa79543c42ef)
+![Screenshot (879)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/c4c258d2-e392-4b23-badb-0aadb3be23c1)
+![Screenshot (880)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/982564f7-4e0f-4128-9f6a-d3be21f53dbf)
+![Screenshot (881)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/7a0b0814-4157-48e4-b2e7-b81ec8dd3ec9)
+![Screenshot (882)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/98a59b5b-3e78-40d7-b4bf-ead66a8cc592)
+![Screenshot (883)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/402e139f-dc51-4c0c-8d27-a6b588036287)
+![Screenshot (884)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/92ac94cb-018b-432b-9e1c-257b9e3790d2)
+![Screenshot (885)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/3cafcd34-629c-447f-92c5-19c1bcce58d1)
+![Screenshot (886)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/77320fcc-e189-41c0-911b-43762c3db922)
+![Screenshot (887)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/0f097ea0-0879-446e-b599-b7182e91a541)
+
 
 ## 4.0 VIDEO LINK
