@@ -76,7 +76,7 @@ And so, the House of Secrets stands, an eternal sentinel, forever ready to ensna
 
 Firstly, both players will pick 5 from 7 items and hide them in 6 different rooms by taking turns. Next, they will need to search for items hidden by another player by guessing the correct room from 6 rooms where there is an extra distraction. The winning player is determined by the values of score which is higher.  
 
-The items are map, cooker, water, flashlight, key, bandage, and key while the rooms are kitchen, bathroom, store, basement, library and store. 
+The items are map, cooker, rope, flashlight, key, bandage, and key while the rooms are kitchen, bathroom, store, basement, library and store. 
 
 Immerse yourself in the House of Secrets: The Sinister Quest as a Detective, hiding and seeking hidden items within its mysterious rooms. Use your intuition and outwit your opponent to claim victory in this challenging and strategic game of deduction. 
 
@@ -104,9 +104,9 @@ Distraction Rooms:
 
 The presence of a distraction room adds an element of challenge and uncertainty to the game. Detectives must carefully analyse clues and make informed decisions to avoid falling for the distractions. 
 
-Clues and Strategy: 
+Strategy: 
 
-Players can incorporate the use of clues and strategic thinking to maximize their chances of guessing the correct rooms. Analysing patterns, considering previous guesses, and adapting their strategies can help players improve their performance. 
+Players can incorporate the use of strategic thinking to maximize their chances of guessing the correct rooms. Analysing patterns, considering previous guesses, and adapting their strategies can help players improve their performance. 
 
 Score Tracking and Display: 
 
@@ -122,7 +122,7 @@ The game can be played multiple times, with players taking turns as both the hid
 
   - The Item class has a private nested struct called ListNode, which represents a node in a linked list.The class has a pointer to the head of the linked list, initialized as nullptr. The class provides a default constructor and a destructor to manage memory for the linked list. 
 
-   - The class contains member functions for adding an item to the linked list (addItem()), displaying all the items (displayItem()), retrieving the name of an item based on its number (getItemName()), hiding an item in a specific room (hideItem()), displaying the hidden items with their corresponding rooms (displayHiddenItems()), displaying the scene for a specific item (itemScene()), checking if the player's guess of a room matches the item's hidden room (guessRoom()), and displaying the result of the guess (result()). 
+   - The class contains member functions for adding an item to the linked list (addItem()), displaying all the items (displayItem()), retrieving the name of an item based on its number (getItemName()), hiding an item in a specific room (hideItem()),getItemPoint() , displaying the hidden items with their corresponding rooms (displayHiddenItems()), displaying the scene for a specific item (itemScene()), checking if the player's guess of a room matches the item's hidden room (guessRoom()),displaying the result of the guess (result()) and isTrue() to check if the guess room is right or not . 
 
 - Player Class 
 
@@ -173,8 +173,6 @@ The Item class represents the collection of items in the game. It uses a linked 
 
    - item: Represents the name of the item. 
 
-   - scene: An instance of the Scene fuction , which is responsible for displaying scenes related to the item. 
-
    - next: A pointer to the next node in the linked list. 
 
 - The Item class provides various functions to manipulate the linked list: 
@@ -185,13 +183,17 @@ The Item class represents the collection of items in the game. It uses a linked 
 
    - getItemName: Retrieves the name of an item based on its item number. 
 
+   - getItemPoint : retrieve the items point .
+     
    - hideItem: Sets the room number where an item is hidden by finding the corresponding node         and updating its room member. 
 
    - displayHiddenItems: Displays the name of each item along with the room number where it is         hidden. 
 
    - itemScene: Displays the scene related to a particular item by finding the corresponding         node and invoking the displayScene function of the Scene class. 
 
-   - guessRoom: Checks if the player's guess for the room where an item is hidden matches the         actual room number. It traverses the linked list to find the corresponding item node         and compares the room numbers. 
+   - guessRoom: Checks if the player's guess for the room where an item is hidden matches the         actual room number. It traverses the linked list to find the corresponding item node         and compares the room numbers.
+     
+   - isTrue :To check either the guess is right or not.
         
    - result: Displays the result of the player's guess for a particular item by finding the corresponding node and invoking the displayResult function of the Scene class. 
 
@@ -212,5 +214,10 @@ In summary, linked lists are used to manage and store the items in the game. Eac
 ![Screenshot (886)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/77320fcc-e189-41c0-911b-43762c3db922)
 ![Screenshot (887)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/0f097ea0-0879-446e-b599-b7182e91a541)
 
+### **Our program has been tested on Dev C++ and Google Colab**
 
 ## 4.0 VIDEO LINK
+ [linkvideo](https://studentusm-my.sharepoint.com/:f:/g/personal/mizanqistinaaa_student_usm_my/EuV5dctXAItGmi9F8SRIcEwBEHAZb0oK_Y-s99Hg2WG1BA?e=8jDbu5)
+
+
+ 
