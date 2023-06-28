@@ -1,5 +1,10 @@
 ## HACKHATON_G31
 
+GROUP MEMBERS :
+ - NABILAH ATIQAH BINTI AZUKI (160294)
+ - NUR HIDAYATI MUNIRAH BINTI JAMNUL AZAZI (160398)
+ - NURIN FARAH IZZATI BINTI MOH RUSDI (160406)
+
 | No. | Tittle |
 |----- | -----------------------------|
 | 1.0 | Introduction |
@@ -11,6 +16,8 @@
 | 2.3 | Classes and Its Relationships |
 | 2.4 | Object Oriented Programming Concepts |
 | 2.5 | Linked List Concepts |
+| 3.0 | Screenshot |
+| 4.0 | Video Link |
 
 ## 1. INTRODUCTION OF OUR TEXT-BASED GAME
 
@@ -201,3 +208,4 @@ In summary, linked lists are used to manage and store the items in the game. Eac
 ![Screenshot (873)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/d4138c37-e2d8-4b0d-a1d2-c5f7fd6a1dbd)
 ![Screenshot (874)](https://github.com/inurinizzati/HACKHATON_G31/assets/117788773/e652bc73-c780-47c6-a4ad-0b5d2ee6d187)
 
+## 4.0 VIDEO LINK
